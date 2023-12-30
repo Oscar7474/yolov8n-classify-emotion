@@ -1,2 +1,3 @@
 plz download fer2013 by yourself and divide into three files, test,list and train.
 btw, if you do not want to use cam.py this file you can open your cmd, and enter this command "yolo classify predict model=last.pt source=0
+Moreover, cam2 is better than cam.
