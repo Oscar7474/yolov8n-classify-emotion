@@ -5,7 +5,6 @@ model = YOLO(r'C:\Users\Kuo\Downloads\last.pt')
 cap = cv2.VideoCapture(0)
 while cap.isOpened():
     success, frame = cap.read()
-
     if success:
         results = model(frame)
         annotated_frame = results[0].plot()
